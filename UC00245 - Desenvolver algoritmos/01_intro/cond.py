@@ -30,7 +30,6 @@ num2 = int(input("Digite o valor do 2º num: "))
 # se forem iguais mostre o dobro da soma, se forem diferentes mostre metade da soma
 # não faça a operação no print (deve guardar os valores em variáveis)
 
-
 if num1 == num2:
     # sei que são iguais
     soma = num1 + num2
@@ -41,8 +40,3 @@ else:
     soma = num1 + num2
     metade = soma / 2
     print(metade)
-
-if num1 > num2:
-    pass
-else:
-    pass
