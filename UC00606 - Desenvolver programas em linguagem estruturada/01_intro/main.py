@@ -47,5 +47,42 @@ print(f"ano {ano}")
 
 # condições
 
+# if
+if aprovado:
+    print("dentro do if")
+    print("aprovado")
+    print("ainda dentro do if")
+
+else:
+    print("nao aprovado")
+
+nota = 10
+
+if nota >= 10:
+    print("aprovado")
+elif nota > 8:
+    print("porva oral")
+else:
+    print("nao aprovado")
+
+nota = input("informe uma nota: ")  # lido sp como str
+# para fazerem op -> converter s str para int
+
+nota = int(nota)
+
+# exp validar se é uma nota valida (0 a 10)
+
+if nota >= 10:
+    print("aprovado")
+elif nota > 8:
+    print("porva oral")
+else:
+    print("nao aprovado")
 
 # loops
+
+
+# for
+
+
+# while
