@@ -98,3 +98,60 @@ print(msg2("Gonçalo", "IEFP"))
 print(msg2("Gonçalo", "IEFP", 2000))
 
 print(msg2("Gonçalo", ano=1998))
+
+print(msg2("Gonçalo", ano=2019))
+
+print("Ola Mundo")
+print("Ola Mundo", end=" ")
+print("Ola Mundo2")
+print("-------------------")
+
+print("txt1", "txt2", sep="-")
+print("txt1", "txt2", sep="\t")
+"""
+1 Faça um programa para imprimir:
+
+    1
+    2   2
+    3   3   3
+    .....
+    n   n   n   n   n   n  ... n
+    
+    para um n informado pelo usuário.
+     Use uma função que receba um valor n inteiro e imprima até a n-ésima linha. 
+    
+"""
+
+
+def ex1(n: int):
+    pass
+
+
+"""
+2 Faça um programa para imprimir:  for -> for
+
+    1
+    1   2
+    1   2   3
+    .....
+    1   2   3   ...  n
+    
+    para um n informado pelo usuário.
+     Use uma função que receba um valor n inteiro e imprima até a n-ésima linha. 
+    
+"""
+"""
+
+3 - Faça um programa, com uma função que necessite de três argumentos, 
+    e que forneça a soma desses três argumentos.
+
+4 - Faça um programa, com uma função que necessite de um argumento. 
+    A função retorna ‘P’, se seu argumento for positivo, e ‘N’, se seu argumento for zero ou negativo.
+
+5 - Faça um programa com uma função chamada somaImposto. 
+
+    A função possui dois parâmetros formais: taxaImposto, que é a quantia de imposto 
+    sobre vendas expressa em percentagem e custo, que é o custo de um item antes do imposto. 
+    
+    A função “altera” o valor de custo para incluir o imposto sobre vendas.
+"""
