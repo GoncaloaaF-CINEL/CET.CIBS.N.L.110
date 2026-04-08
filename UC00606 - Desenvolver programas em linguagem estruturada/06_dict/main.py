@@ -68,3 +68,47 @@ for elm in my_dict.values():
 print("----------")
 for elm in my_dict.items():
     print(elm)
+
+"""
+
+Crie um programa que leia uma frase, e conte o número de vezes que cada consoante aparece.
+
+"""
+
+"""
+Dada a lista:
+
+alunos = [
+    {"nome": "Ana", "nota": 18},
+    {"nome": "Rui", "nota": 9},
+    {"nome": "João", "nota": 12}
+]
+Pede:
+Mostrar todos os nomes
+Mostrar só os aprovados (nota >= 10)
+Calcular a média das notas
+
+"""
+
+"""
+Cria um programa que:
+    Leia várias notas (0 a 20) separadas por espaço: Classifique cada nota como:
+        "Reprovado" (<10)
+        "Suficiente" (10-13)
+        "Bom" (14-17)
+        "Muito Bom" (18-20)
+        
+    Conte quantas notas existem em cada categoria
+    Guarde o resultado num dicionário
+    Mostre o resultado
+💡 
+Exemplo
+Input: 12 15 8 19 10
+
+Resultado:
+Reprovado: 1
+Suficiente: 2
+Bom: 1
+Muito Bom: 1
+
+"""
