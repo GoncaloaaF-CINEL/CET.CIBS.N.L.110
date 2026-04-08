@@ -137,6 +137,55 @@ print("--")
 print(set1.difference(set2))
 print(set2.difference(set1))
 print("--")
-
 print(set1.symmetric_difference(set2))
 
+
+print("--")
+set1 = {"v1", "v3","v2"}
+set2 = {"v1", "v3","v2","v4", "v5"}
+
+print(set1.issubset(set2))
+
+
+print("-------------")
+
+
+set1 = {"Farinha", "Ovos", "Açúcar",  "Iogut", "Oleo"}
+set2 = {"Açúcar", "Ovos", "Manteiga", "Farinha", "Leite"}
+
+
+print("- union -")
+print(set1.union(set2))
+print(set1 | set2)
+print("-intersection-")
+print(set1.intersection(set2))
+print(set1 & set2)
+
+print("-difference-")
+print(set1.difference(set2))
+print(set1 - set2)
+
+print("-symmetric_difference-")
+print(set1.symmetric_difference(set2))
+print(set1 ^ set2)
+
+set1 = {"v1", "v3","v2"}
+set2 = {"v1", "v3","v2","v4", "v5"}
+
+print("-issubset-")
+print(set1.issubset(set2))
+print(set1 < set2)
+
+print("-issuperset-")
+print(set1.issuperset(set2))
+print(set1 > set2)
+
+
+
+
+"""
+Foram anotadas as idades e alturas de 30 alunos. 
+Faça um Programa que determine quantos alunos com mais de 13 anos possuem altura
+inferior à média da altura de todos os alunos e inferior a media dos alunos com 13 anos.
+ 
+"""
