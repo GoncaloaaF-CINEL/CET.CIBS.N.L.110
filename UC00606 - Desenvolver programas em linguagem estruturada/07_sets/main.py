@@ -1,3 +1,5 @@
+import random
+
 """
 
 var
@@ -181,10 +183,28 @@ print(set1.issuperset(set2))
 print(set1 > set2)
 
 
+# Foram anotadas as idades e alturas de 30 alunos.
 
+lst = []
+for i in range(30):
+    idade = random.randint(8,20)
+    # altura = random.uniform(1,2).__format__(".2f")
+    altura = random.randint(100,220)
+    tp = (idade, altura)
+    lst.append(tp)
 
+print(lst)
+
+lst2 = [
+    (12, 145), (18, 172), (21, 180), (15, 160), (10, 138), (25, 185), (17, 169), (14, 155), (22, 178), (19, 174),
+    (13, 150), (16, 167), (20, 176), (11, 140), (23, 182), (24, 183), (18, 170), (15, 158), (21, 177), (12, 147),
+    (14, 152), (19, 173), (16, 165), (17, 168), (13, 149), (22, 179), (20, 175), (11, 142), (23, 181), (24, 184)
+]
+
+print(random.uniform(1,2).__format__(".2f"))
 """
-Foram anotadas as idades e alturas de 30 alunos. 
+Foram anotadas as idades e alturas de 30 alunos.
+ 
 Faça um Programa que determine quantos alunos com mais de 13 anos possuem altura
 inferior à média da altura de todos os alunos e inferior a media dos alunos com 13 anos.
  

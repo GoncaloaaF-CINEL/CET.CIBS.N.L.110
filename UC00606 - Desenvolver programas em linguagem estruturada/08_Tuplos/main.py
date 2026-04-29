@@ -24,6 +24,8 @@ print(f"Nome: {nome} tem media de {media}")
 
 """
 Foram anotadas as idades e alturas de 30 alunos. 
+
+
 Faça um Programa que determine quantos alunos com mais de 13 anos possuem altura
 inferior à média da altura de todos os alunos e inferior a media dos alunos com 13 anos.
 
