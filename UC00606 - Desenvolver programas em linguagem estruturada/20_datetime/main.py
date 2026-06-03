@@ -1,4 +1,4 @@
-from datetime import datetime, tzinfo
+from datetime import datetime
 
 
 print(datetime.now())
