@@ -16,8 +16,11 @@ df.Age.mean()
 df.Age.std()
 df.Age.sum()
 df.max()
+
 df2.nunique()
 df2["alias list"].value_counts()
+
+
 df.iloc[l, c] -> l linhas e c colunas -> valor
 df.iloc[[l], [c]] -> l linhas e c colunas -> dataframe
 df.loc[l, c] -> l linhas e c colunas -> valor
@@ -25,3 +28,11 @@ df.loc[[l], [c]] -> l linhas e c colunas -> dataframe
 and -> &
 or -> |
 df.sort_values("coluna a ordenar", ascending=False ,inplace=True)
+
+
+
+df.Age.min()
+df.Age.max()
+df.Age.mean()
+df.Age.std()
+df.Age.sum()
