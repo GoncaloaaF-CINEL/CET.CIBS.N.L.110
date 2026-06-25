@@ -1,0 +1,9 @@
+Data           ; app        ;  porxy_url e port         ; evento;  msg
+10.30 16:49:06 ; chrome.exe ; proxy.cse.cuhk.edu.hk:5070; open; through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+10.30 16:49:07 ; chrome.exe ; proxy.cse.cuhk.edu.hk:5070; open; through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+
+10.30 18:00:12 ; FlashPlayerPlugin_18_0_0_209.exe ;  formi.baidu.com:843 ; error ; Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 403
+
+
+10.30 16:49:07 ; chrome.exe ; proxy.cse.cuhk.edu.hk:5070; close, 0 bytes sent, 0 bytes received, lifetime 00:01
+10.30 16:49:07 ; chrome.exe ; proxy.cse.cuhk.edu.hk:5070; close, 403 bytes sent, 426 bytes received, lifetime <1 sec
