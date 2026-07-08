@@ -7,3 +7,8 @@ Data           ; app        ;  porxy_url e port         ; evento;  msg
 
 10.30 16:49:07 ; chrome.exe ; proxy.cse.cuhk.edu.hk:5070; close, 0 bytes sent, 0 bytes received, lifetime 00:01
 10.30 16:49:07 ; chrome.exe ; proxy.cse.cuhk.edu.hk:5070; close, 403 bytes sent, 426 bytes received, lifetime <1 sec
+
+
+
+19904 bytes (19.4 KB) sent, 27629 bytes (26.9 KB) received, lifetime 02:19
+19904 bytes sent, 27629 bytes received, lifetime 02:19
