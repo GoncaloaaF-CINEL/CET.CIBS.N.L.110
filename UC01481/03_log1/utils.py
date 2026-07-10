@@ -21,7 +21,6 @@ def tratar_linha(linha:str, ano:int=2015):
     linha = linha[fim_app + 1:].lstrip(" -") # lstrip -> removes espaços no inicio
     # print(linha)
 
-
     fim_url_port = linha.find(" ")
 
     url_port = linha[:fim_url_port].strip().lstrip()
